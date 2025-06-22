@@ -1,0 +1,36 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that.
+
+# -- Site Settings --
+title: Journey Platform Technical Documentation
+description: >- # this means to ignore newlines until "baseurl:"
+  The engine room for the ClearThink-AI Journey system. This site contains
+  the technical design, architecture, and implementation details for all
+  reusable platform components.
+baseurl: "/journey-techdocs" # the subpath of your site, e.g. /blog
+url: "https://clearthink-ai.github.io" # the base hostname & protocol for your site
+
+# -- Theme and Plugins --
+# By default, GitHub Pages uses the "jekyll-theme-primer" theme.
+# You can install and use other themes for a different look and feel.
+theme: jekyll-theme-minimal
+
+# -- Header Navigation Links --
+header_pages:
+  - README.md
+  - DOCUMENTATION_GUIDE.md
+
+# -- Optional: Add files to be excluded from processing --
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
