@@ -1,15 +1,14 @@
 # journey-techdocs
 # Journey Platform: Technical Components & Documentation
 
-This repository contains the source code and developer-facing documentation for the reusable components that power the **ClearThink-AI Journey system**. It serves as the "engine room" for the platform's interactive features and is intended for the engineering team.
+This repository contains the  developer-facing documentation for reusable components that power the **ClearThink-AI Journey system**. It serves as the "engine room" for the platform's interactive features and is intended for the engineering team.
 
-The user-facing documentation and authoring guides for content creators can be found in the `Journey Content` repository.
 
 ---
 
 ## Guiding Principles
 
-Development within this repository follows a few core principles to ensure the platform remains robust, maintainable, and portable.
+Development follows a few core principles to ensure the platform remains robust, maintainable, and portable.
 
 * **Vanilla Stack:** Components are built with standards-compliant, vanilla HTML, CSS, and JavaScript (ES6 Modules). This approach avoids framework lock-in, maximizes performance, and ensures components can be easily integrated into various environments.
 * **Modularity:** Each feature or component is designed to be self-contained within its own directory, minimizing dependencies and making them easier to maintain or replace.
@@ -17,7 +16,7 @@ Development within this repository follows a few core principles to ensure the p
 
 ## Repository Structure
 
-The repository is organized to separate large, composite features from smaller, general-purpose components.
+This repository is organized to separate large, composite features from smaller, general-purpose components.
 
 ```
 journey-techdocs/
